@@ -1,0 +1,32 @@
+
+LRU
+1	1	1	4	4	4	5	5	5	3	3	3	
+-1	2	2	2	1	1	1	1	1	1	4	4	
+-1	-1	3	3	3	2	2	2	2	2	2	5	
+F	F	F	F	F	F	F	H	H	F	F	F	
+
+Page hits: 2	Page faults: 10	% hits: 16.6667%
+
+FIFO
+1	1	1	4	4	4	5	5	5	5	5	5	
+-1	2	2	2	1	1	1	1	1	3	3	3	
+-1	-1	3	3	3	2	2	2	2	2	4	4	
+F	F	F	F	F	F	F	H	H	F	F	H	
+
+Page hits: 3	Page faults: 9	% hits: 25%
+
+OPT
+1	1	1	1	1	1	1	1	1	3	3	3	
+-1	2	2	2	2	2	2	2	2	2	4	4	
+-1	-1	3	4	4	4	5	5	5	5	5	5	
+F	F	F	F	H	H	F	H	H	F	F	H	
+
+Page hits: 5	Page faults: 7	% hits: 41.6667%
+
+SC
+1	1	1	4	4	4	5	5	5	3	3	5	
+-1	2	2	2	1	1	1	1	1	1	4	4	
+-1	-1	3	3	3	2	2	2	2	2	2	2	
+F	F	F	F	F	F	F	H	H	F	F	F	
+
+Page hits: 2	Page faults: 10	% hits: 16.6667%
